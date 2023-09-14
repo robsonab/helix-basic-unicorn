@@ -1,0 +1,18 @@
+﻿---
+ID: "26eecc8e-53f2-4212-b431-7d01bce0e7c9"
+Parent: "86700b35-87fc-4a8b-be7d-9bbda9c24437"
+Template: "86700b35-87fc-4a8b-be7d-9bbda9c24437"
+Path: /sitecore/templates/Project/BasicCompany/Content Types/My Components/Hero Banner/Hero Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230914T215718Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

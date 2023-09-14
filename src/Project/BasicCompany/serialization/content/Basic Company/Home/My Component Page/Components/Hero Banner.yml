@@ -1,0 +1,27 @@
+﻿---
+ID: "78f2d1a9-db5a-4f92-844e-134693e2b473"
+Parent: "f0cdc65b-a994-4992-aae2-7402dc5c8ecc"
+Template: "86700b35-87fc-4a8b-be7d-9bbda9c24437"
+Path: /sitecore/content/Basic Company/Home/My Component Page/Components/Hero Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "015c0f0d-6435-4462-b7f2-268cccc8dfe2"
+      Hint: Body Copy
+      Value: <strong><em>Body Copy Test</em></strong>
+    - ID: "24b92ab0-de19-447a-b5bf-248d52a3ebea"
+      Hint: Title
+      Value: Title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230914T215812Z
+    - ID: "27abc8fe-6374-46d5-8ec3-707ed1c3db64"
+      Hint: SubTitle
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
