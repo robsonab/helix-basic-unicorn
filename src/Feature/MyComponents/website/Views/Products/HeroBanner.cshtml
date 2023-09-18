@@ -1,11 +1,22 @@
-﻿<h1>    
-    @Html.Sitecore().Field("Title")
-</h1>
+﻿@using BasicCompany.Feature.MyComponents.Model
+@model HeroBannerModel
 
-<h2>
-    @Html.Sitecore().Field("SubTitle")
-</h2>
-
-<p>
-    @Html.Sitecore().Field("Body Copy")
-</p>
+<section class="hero is-medium is-white" style="background-image: url(@Model.ImageBackground)">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                @Html.Sitecore().Field("Title")
+            </h1>
+            @if(@Sitecore.Context.PageMode.IsExperienceEditor || 
+                string.IsNullOrEmpty(RenderingContext.CurrentOrNull.Rendering.Item.Fields["SubTitle"].Value) == false)
+            {
+                <h2 class="subtitle">
+                    @Html.Sitecore().Field("SubTitle")
+                </h2>
+            }
+            <div style="width: 100%; text-align: left">
+                @Html.Sitecore().Field("Body Copy")
+            </div>
+        </div>
+    </div>
+</section>

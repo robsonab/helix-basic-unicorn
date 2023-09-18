@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "015c0f0d-6435-4462-b7f2-268cccc8dfe2"
       Hint: Body Copy
-      Value: <strong><em>Body Copy Test</em></strong>
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida augue. Nullam et dapibus erat. Nulla molestie ut lectus non dapibus. Donec ac nisi at metus suscipit porttitor.
     - ID: "24b92ab0-de19-447a-b5bf-248d52a3ebea"
       Hint: Title
       Value: Title
@@ -20,8 +20,12 @@ Languages:
       Value: 20230914T215812Z
     - ID: "27abc8fe-6374-46d5-8ec3-707ed1c3db64"
       Hint: SubTitle
-      Value: 
+      Value: Teste
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "86984d4a-823f-48e1-b165-ce22c944674c"
+      Hint: Body Image
+      Value: |
+        <image mediaid="{AB1185E2-AA43-4E7B-ADBE-146E89A828D5}" />
