@@ -1,0 +1,60 @@
+﻿---
+ID: "5bc7eaa8-488e-420d-be4d-5b7ebaf29cc7"
+Parent: "6a495952-fab5-4c55-9880-ee1a1b780650"
+Template: "b8c35303-4f71-4869-974c-ffbf443af7c9"
+Path: /sitecore/content/Basic Company/Home/My Pages/My Page 1/Components/Carousel 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ef73329-d02a-408c-8374-09335f5dd893"
+      Hint: Slide 3 Link
+      Value: |
+        <link text="Link 3" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6B80C77A-8DAD-40B9-8E4B-8E051959988C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230918T134952Z
+    - ID: "37d75e5b-dfb7-40d9-b710-12b781de1cb4"
+      Hint: Slide 2 Title
+      Value: Title 2
+    - ID: "3aafd4ea-0654-4aca-8b9a-f06519e2b9fd"
+      Hint: Slide 1 Title
+      Value: Title
+    - ID: "3e44b793-99b2-4db9-a01c-6530a9b56243"
+      Hint: Slide 1 Image
+      Value: |
+        <image mediaid="{74D28620-4B3F-44AD-ABBF-3EF6966E59CB}" />
+    - ID: "432cf6cc-538c-48e6-9560-43f82064d834"
+      Hint: Slide 3 Image
+      Value: |
+        <image mediaid="{E88F525C-18CC-4ECF-8E76-89969B764838}" />
+    - ID: "472ce655-f3c7-4b0d-8875-2020ffd4ee51"
+      Hint: Slide 2 Image
+      Value: |
+        <image mediaid="{864AD451-240D-401A-AC91-F034A0065B13}" />
+    - ID: "4c0c3665-fce0-4d44-9e7c-3b74f092f6f7"
+      Hint: Slide 3 Title
+      Value: Slide 3
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5ebb2722-c9b5-4fe0-bdf2-3099a7124d07"
+      Hint: Slide 1 Body
+      Value: <b>Body</b>
+    - ID: "876ba7f4-c446-44d6-a818-0fd986e4f8e5"
+      Hint: Slide 2 Link
+      Value: |
+        <link text="Link 2" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{97479C6B-BB30-4A15-AFD1-2C89F207E9D6}" />
+    - ID: "a19c07de-aadd-40de-80f8-2d4ab531dba9"
+      Hint: Slide 2 Body
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec condimentum metus, in varius lacus. Duis at eleifend lectus, at aliquam ipsum. Sed at purus non dolor tincidunt hendrerit
+    - ID: "c0583593-6b34-4436-9223-ed64ae537315"
+      Hint: Slide 1 Link
+      Value: |
+        <link linktype="internal" text="Clique aqui 1" querystring="" target="" id="{97479C6B-BB30-4A15-AFD1-2C89F207E9D6}" />
+    - ID: "e82a54d1-0cf2-42dc-9d38-86eda1cc7f28"
+      Hint: Slide 3 Body
+      Value: Phasellus mollis metus eros, nec malesuada nisl tincidunt facilisis. Nullam bibendum mollis orci ut blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed neque libero, rhoncus sed purus quis, venenatis vehicula nibh. Etiam fringilla ut libero ac tincidunt. Aenean et est laoreet, viverra turpis sagittis, iaculis risus.

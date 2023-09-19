@@ -70,11 +70,7 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Products\List.cshtml" />
-    <Content Include="Views\Products\Detail.cshtml" />
-    <Content Include="Views\Products\Detail Header.cshtml" />
-    <Content Include="Views\Products\Related Products.cshtml" />
-    <Content Include="Views\Products\_ListProduct.cshtml" />
+    <Content Include="Views\Products\Carousel.cshtml" />
     <Content Include="Views\Products\HeroBanner.cshtml" />
     <None Include="Views\web.config" />
   </ItemGroup>

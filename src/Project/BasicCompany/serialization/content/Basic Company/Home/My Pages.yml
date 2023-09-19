@@ -1,0 +1,18 @@
+﻿---
+ID: "ce8bf714-a56c-41e5-b291-c2e1dc36c7d7"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "5baf5046-bbdb-4a3c-b094-db0228c79946"
+Path: /sitecore/content/Basic Company/Home/My Pages
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230918T125423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -32,5 +32,9 @@ namespace BasicCompany.Feature.MyComponents.Controllers
             }
             return View(result);
         }
+        public ActionResult Carousel()
+        {
+            return View(RenderingContext.CurrentOrNull.Rendering.Item);
+        }
     }
 }
