@@ -1,0 +1,21 @@
+﻿---
+ID: "7a0f4318-f91f-47a9-bc72-85c1f8caffdc"
+Parent: "38dadc04-6109-4f67-9500-79479fb08b41"
+Template: "38dadc04-6109-4f67-9500-79479fb08b41"
+Path: /sitecore/templates/Project/BasicCompany/Content Types/My Components/Slide/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230928T120141Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c18fa262-f5e9-46d9-86a3-2be6d1c507fb"
+      Hint: Slide Title
+      Value: $name

@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Model\HeroBannerModel.cs" />
+    <Compile Include="Model\SlideViewModel.cs" />
     <Compile Include="ServicesConfigurator.cs" />
     <Compile Include="Services\ProductSearchQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,25 @@
+﻿---
+ID: "8df6886f-e6c8-4063-86bb-87d529e3215a"
+Parent: "23a1b65b-319d-4440-8957-c32dfda15637"
+Template: "23a1b65b-319d-4440-8957-c32dfda15637"
+Path: /sitecore/templates/Project/BasicCompany/Content Types/My Components/Slides Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {38DADC04-6109-4F67-9500-79479FB08B41}
+    {23A1B65B-319D-4440-8957-C32DFDA15637}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230928T115752Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

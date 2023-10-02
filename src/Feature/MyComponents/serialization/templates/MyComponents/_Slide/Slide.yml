@@ -1,13 +1,9 @@
 ﻿---
-ID: "e0bc28ed-a52b-40b6-87e6-3ae3b7660ccb"
-Parent: "a490eb37-1e78-4139-9ddb-317ed0706a60"
+ID: "7d98514e-0641-43d5-98e5-ec3a4f2f260e"
+Parent: "aa6ad180-984e-40dd-9332-22055151635d"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/MyComponents/_Carousel/Slide 2
+Path: /sitecore/templates/Feature/MyComponents/_Slide/Slide
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -15,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230918T133515Z
+      Value: 20230928T115913Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

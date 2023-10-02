@@ -11,6 +11,12 @@ SharedFields:
 - ID: "94069f66-609c-48b0-8281-521c30fb269d"
   Hint: Open Properties after Add
   Value: 
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: |
+    {04482547-B09F-4B0B-92A8-E24D0084CE5B}
+    {D10426FB-4221-420D-ABAA-C862B2888A79}
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./Components/Carousel

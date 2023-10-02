@@ -1,0 +1,42 @@
+﻿---
+ID: "e502fe62-6ea3-4835-bd2d-9448b9e8556a"
+Parent: "2ffe0c30-8790-4900-a60f-d9c30e667660"
+Template: "38dadc04-6109-4f67-9500-79479fb08b41"
+Path: /sitecore/content/Basic Company/Shared Content/Slides/Slide 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230928T120837Z
+    - ID: "90249809-204a-4b48-b2b8-0e21f14d0753"
+      Hint: Slide Body
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ex tellus.&nbsp;
+    - ID: "c18fa262-f5e9-46d9-86a3-2be6d1c507fb"
+      Hint: Slide Title
+      Value: Slide 1
+    - ID: "c652135b-10db-4eaf-81ad-0f7645ed1b0c"
+      Hint: Slide Link
+      Value: |
+        <link linktype="external" text="Link 1" url="http://www.google.com" anchor="" target="" />
+    - ID: "f2b657f4-92a0-46a7-9f86-b326f71896a5"
+      Hint: Slide Image
+      Value: |
+        <image mediaid="{864AD451-240D-401A-AC91-F034A0065B13}" />
+- Language: "pt-BR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231002T185938Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c18fa262-f5e9-46d9-86a3-2be6d1c507fb"
+      Hint: Slide Title
+      Value: "Slide 1 pt-BR"
