@@ -12,6 +12,8 @@ using Sitecore.Mvc.Extensions;
 using System;
 using Sitecore.Globalization;
 using System.Web.UI.WebControls;
+using Sitecore.Links;
+using BasicCompany.Feature.MyComponents.Model;
 
 namespace BasicCompany.Feature.MyComponents.Controllers
 {
@@ -85,6 +87,32 @@ namespace BasicCompany.Feature.MyComponents.Controllers
             }
 
             return View(model);
+        }
+
+
+        public ActionResult Header()
+        {            
+            var contextItem = RenderingContext.Current.ContextItem;
+            var homeItem = contextItem.Database.GetItem("/sitecore/content/Basic Company/Home");
+            var navigationId = new Sitecore.Data.ID("{11B89155-ECC0-416E-A327-D5D4AC92688B}");
+
+            var navigationItems = homeItem.GetChildren()
+                                            .Where(item => item.DescendsFrom(navigationId))
+                                            .Select(item => new NavigationModel
+                                            {
+                                                Item = item,
+                                                Url = LinkManager.GetItemUrl(item),
+                                            })
+                                            .ToList();
+
+            var header = new HeaderModel
+            {
+                HomeItem = homeItem,
+                HomeUrl = LinkManager.GetItemUrl(homeItem),
+                NavigationItems = navigationItems
+            };
+
+            return View(header);
         }
     }
 }

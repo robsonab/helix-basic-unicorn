@@ -45,7 +45,7 @@
                 {
                     <span>@Model.Previous</span>
                 }
-                </a>
+            </a>
             <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
                 @if (Model.ShowLabels)
                 {
@@ -78,4 +78,14 @@
         </div>
     }
 
+}
+else if(Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div class="container-fluid m-2">
+        <div class="row">            
+                <div class="col-12 p-1">
+                    Selecione um slide
+                </div>
+        </div>
+    </div>
 }

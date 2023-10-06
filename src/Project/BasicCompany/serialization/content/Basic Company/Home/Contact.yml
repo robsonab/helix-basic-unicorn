@@ -1,0 +1,17 @@
+﻿---
+ID: "8e76f0e5-c717-4ba4-9daa-e1d2a097d7db"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "f6155224-d02b-44d4-b9aa-a8efad526eae"
+Path: /sitecore/content/Basic Company/Home/Contact
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231006T121905Z
+    - ID: "933d75a2-7e9a-45fb-97ef-afff018760b3"
+      Hint: Navigation Title
+      Value: Contact

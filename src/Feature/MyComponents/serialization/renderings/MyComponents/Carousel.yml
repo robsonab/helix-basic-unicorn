@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/BasicCompany/Content Types/My Components/Carousel/__Standard Values
+  Value: /sitecore/templates/Project/BasicCompany/Content Types/My Components/Carousel
 - ID: "94069f66-609c-48b0-8281-521c30fb269d"
   Hint: Open Properties after Add
   Value: 

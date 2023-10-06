@@ -1,0 +1,25 @@
+﻿@model BasicCompany.Feature.MyComponents.Model.HeaderModel
+
+<div class="nav-bar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a href="#" class="navbar-brand">MENU</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                    <a href="@Model.HomeUrl" class="nav-item nav-link active">Home</a>
+
+                    @foreach (var navItem in Model.NavigationItems)
+                    {
+                        <a href="@navItem.Url" class="nav-item nav-link">
+                            @Html.Sitecore().Field("Navigation Title", navItem.Item)
+                        </a>
+                    }
+                </div> 
+            </div>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿---
+ID: "fe5b6914-bbb9-4855-8da8-7a80c04ea6c5"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "f6155224-d02b-44d4-b9aa-a8efad526eae"
+Path: /sitecore/content/Basic Company/Home/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231005T192620Z
+    - ID: "933d75a2-7e9a-45fb-97ef-afff018760b3"
+      Hint: Navigation Title
+      Value: About

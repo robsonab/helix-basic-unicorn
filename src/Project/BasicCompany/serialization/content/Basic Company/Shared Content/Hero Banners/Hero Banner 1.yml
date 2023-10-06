@@ -1,0 +1,21 @@
+﻿---
+ID: "7bf0b25f-5146-4f96-9f7f-1fdff9a3e1de"
+Parent: "e5217c07-4de9-45f2-97dd-08a162b31d1c"
+Template: "4a421518-7b4a-4d43-af9b-94e17e00ec9f"
+Path: /sitecore/content/Basic Company/Shared Content/Hero Banners/Hero Banner 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231006T115214Z
+    - ID: "5179186c-b95e-4e97-95ab-7958721a9aeb"
+      Hint: Title
+      Value: Hero Banner 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

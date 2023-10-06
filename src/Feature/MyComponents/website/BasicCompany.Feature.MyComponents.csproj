@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Model\HeaderModel.cs" />
     <Compile Include="Model\HeroBannerModel.cs" />
+    <Compile Include="Model\NavigationModel.cs" />
     <Compile Include="Model\SlideViewModel.cs" />
     <Compile Include="ServicesConfigurator.cs" />
     <Compile Include="Services\ProductSearchQuery.cs" />
@@ -73,6 +75,7 @@
   <ItemGroup>
     <Content Include="Views\Products\Carousel.cshtml" />
     <Content Include="Views\Products\HeroBanner.cshtml" />
+    <Content Include="Views\Products\Header.cshtml" />
     <None Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
